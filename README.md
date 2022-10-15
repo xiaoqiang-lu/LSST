@@ -51,7 +51,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >66.38</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1r5c_1jTeO7rXXVjB2sXcQePIGTbsc8f_/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
@@ -62,7 +62,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >71.28</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1Bo8FVBeDBbFKM13GLHnJWVqFMsajz7l-/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">iSAID</td>    
@@ -74,7 +74,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >46.94</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1vtBomAk-A2Ssr1F5Sbbir6crhqANd7DV/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">300</td>
@@ -85,7 +85,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >61.80</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1NKRW_SPAaXKUU59XLP3nNgLNR0RE5zYM/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">DFC22</td>    
@@ -97,7 +97,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >30.94</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1bYvGUvs4hhJBUz5spIfbzxgXgDA1spII/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
@@ -108,7 +108,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >36.40</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1p5kwkX6JNUp55TR-Xa49WmuxIoU9RjgL/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">MER</td>    
@@ -120,7 +120,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >49.68</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1onc0yAHrXD0AGQ_UxJt1emFTw-SazPip/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
@@ -131,7 +131,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >51.31</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1YPKR2RCvCrUr0Hg8y6_GKAzmsMGfVy7k/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">MSL</td>    
@@ -143,7 +143,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >54.72</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1LocR9_OsN1PT1tdpZa2vHlteeawCekhU/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
@@ -154,7 +154,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >56.22</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1eNmc--jeFwZpth8bYle7tB3VaA5_15sc/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">Vaihingen</td>    
@@ -166,7 +166,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >64.09</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1rk_UPaksMyD5qNXOcRRvQTTVs1JfAIdM/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
@@ -177,7 +177,7 @@ We have processed the original dataset as mentioned in the paper. You can access
     <tr>
         <td >ours</td>
         <td >65.34</td>
-        <td > <a href="" target="_blank">Google Drive</a></td>
+        <td > <a href="https://drive.google.com/file/d/1WvRvgtnehhDS-q_j4ZYVP6m-IDoOVvJB/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     
     
@@ -188,7 +188,7 @@ We have processed the original dataset as mentioned in the paper. You can access
 
 # Training and Testing
 ## Training
-
+Change DATASET, SPLIT, and DATASET_PATH as you want in train.py, then run:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py
 ```
