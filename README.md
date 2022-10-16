@@ -7,6 +7,11 @@ This is the official PyTorch implementation of our paper:
 > *Submitted to IEEE Transactions on Geoscience and Remote Sensing (TGRS) 2022*
 
 # Getting Started
+## Install
+```
+conda create -n lsst python=3.7
+pip install -r requirements.txt
+```
 
 ## Data Preparation
 
