@@ -23,7 +23,7 @@ start_writeable = datetime.datetime.now().strftime('%m-%d_%H-%M')
 MODE = None
 
 DATASET = 'DFC22'     # ['GID-15', 'iSAID', 'MER', 'MSL', 'Vaihingen', 'DFC22]
-SPLIT = '1-4'     # ['1-4', '1-8', '100', '300']
+SPLIT = '1-8'     # ['1-4', '1-8', '100', '300']
 GID15_DATASET_PATH = 'Your local path'
 iSAID_DATASET_PATH = 'Your local path'
 DFC22_DATASET_PATH = 'Your local path'
@@ -43,7 +43,7 @@ def parse_args():
     parser.add_argument('--ratio', type=float, default=RATIO, help='0-1')
     parser.add_argument('--batch-size', type=int, default=8)
     parser.add_argument('--lr', type=float, default=None)
-    parser.add_argument('--epochs', type=int, default=100)
+    parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--crop-size', type=int, default=None)
     parser.add_argument('--backbone', type=str, choices=['resnet50', 'resnet101'], default='resnet101')
     parser.add_argument('--model', type=str, choices=['deeplabv3plus', 'pspnet', 'deeplabv2'],
@@ -499,7 +499,7 @@ def sparse_label(model, dataloader, args):
 if __name__ == '__main__':
     args = parse_args()
     if args.epochs is None:
-        args.epochs = {'GID-15': 100, 'iSAID': 100, 'MER': 100, 'MSL': 100, 'Vaihingen': 100, 'DFC22': 100}[args.dataset]
+        args.epochs = {'GID-15': 50, 'iSAID': 50, 'MER': 50, 'MSL': 50, 'Vaihingen': 50, 'DFC22': 50}[args.dataset]
     if args.lr is None:
         args.lr = {'GID-15': 0.001, 'iSAID': 0.001, 'MER': 0.001, 'MSL': 0.001,
                    'Vaihingen': 0.001, 'DFC22': 0.001}[args.dataset] / 16 * args.batch_size
