@@ -35,7 +35,7 @@ RATIO = 0.2
 NUM_CLASSES = {'GID-15': 15, 'iSAID': 15, 'DFC22': 12, 'MER': 9, 'MSL': 9, 'Vaihingen': 5}
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='ST and ST++ Framework')
+    parser = argparse.ArgumentParser(description='LSST Framework')
 
     # basic settings
     parser.add_argument('--data-root', type=str, default=None)
