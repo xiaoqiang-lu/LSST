@@ -204,7 +204,11 @@ Change DATASET, SPLIT, and DATASET_PATH as you want in train.py, then run:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py
 ```
-
+## Testing
+Change WEIGHTS, and DATASET_PATH as you want in train.py, then run:
+```
+CUDA_VISIBLE_DEVICES=0,1 python test.py
+```
 
 ## Acknowledgement
 
