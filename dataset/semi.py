@@ -11,7 +11,7 @@ from torchvision import transforms
 class SemiDataset(Dataset):
     def __init__(self, name, root, mode, size, labeled_id_path=None, unlabeled_id_path=None, pseudo_mask_path=None):
         """
-        :param name: dataset name, pascal or cityscapes
+        :param name: dataset name, GID-15, iSAID, DFC22, MER, MSL, and Vaihingen
         :param root: root path of the dataset.
         :param mode: train: supervised learning only with labeled images, no unlabeled images are leveraged.
                      label: pseudo labeling the remaining unlabeled images.
@@ -67,7 +67,6 @@ class SemiDataset(Dataset):
             mask = Image.open(os.path.join(self.pseudo_mask_path, fname))
 
         # basic augmentation on all training images
-        # base_size = 400 if self.name == 'pascal' else 2048
         base_size = 400
         img, mask = resize(img, mask, base_size, (0.5, 2.0))
         img, mask = crop(img, mask, self.size)
@@ -75,17 +74,9 @@ class SemiDataset(Dataset):
 
         # strong augmentation on unlabeled images
         if self.mode == 'semi_train' and id in self.unlabeled_ids:
-            ### default
-            if random.random() < 0.8:
-                img = transforms.ColorJitter(0.5, 0.5, 0.5, 0.25)(img)
-            img = transforms.RandomGrayscale(p=0.2)(img)
-            img = blur(img, p=0.5)
+            img = color_transformation(img)
+            img, mask = geometric_transformation(img, mask)
             img, mask = cutout(img, mask, p=0.5)
-
-            ### exp
-            # img = color_transformation(img)
-            # img, mask = geometric_transformation(img, mask)
-            # img, mask = cutout(img, mask, p=0.5)
 
         img, mask = normalize(img, mask)
 
