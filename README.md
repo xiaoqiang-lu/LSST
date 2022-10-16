@@ -16,7 +16,14 @@ pip install -r requirements.txt
 ## Data Preparation
 
 ### Pre-trained Model
-
+```
+mkdir pretrained
+cd pretrained
+wget https://download.pytorch.org/models/resnet101-63fe2227.pth
+mv resnet101-63fe2227.pth resnet101.pth
+cd ..
+```
+or download via the following link
 [ResNet-101](https://download.pytorch.org/models/resnet101-63fe2227.pth)
 
 ### Dataset
