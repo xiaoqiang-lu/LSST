@@ -161,7 +161,7 @@ def train(model, trainloader, valloader, criterion, optimizer, args):
 
             tbar.set_description('Loss: %.3f' % (total_loss / (i + 1)))
 
-        if (epoch + 1) % 1 == 0:
+        if (epoch + 1) % 10 == 0:
             metric = meanIOU(num_classes=NUM_CLASSES[args.dataset])
 
             model.eval()
