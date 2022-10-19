@@ -96,8 +96,8 @@ We have processed the original dataset as mentioned in the paper. You can access
     </tr>
     <tr>
         <td >ours</td>
-        <td >61.80</td>
-        <td > <a href="https://drive.google.com/file/d/1NKRW_SPAaXKUU59XLP3nNgLNR0RE5zYM/view?usp=sharing" target="_blank">Google Drive</a></td>
+        <td >63.40</td>
+        <td > <a href="https://drive.google.com/file/d/1qEO7MvEGR0XxPYHCwynWb1vaUMfEkIv4/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">DFC22</td>    
