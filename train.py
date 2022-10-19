@@ -16,9 +16,22 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import timeit
 import datetime
+import random
 
 start = timeit.default_timer()
 start_writeable = datetime.datetime.now().strftime('%m-%d_%H-%M')
+
+def set_random_seed(seed, deterministic=False):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    if deterministic:
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
+        
+seed = 4444
+set_random_seed(seed)
 
 MODE = None
 
