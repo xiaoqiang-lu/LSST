@@ -100,7 +100,7 @@ def get_iou(data_list, class_num, save_path=None, dataset_name=None):
     elif dataset_name == 'GID-15':
         classes, _ = GID15()
     elif dataset_name == 'Vaihingen':
-        classes, _ = ISPRS()
+        classes, _ = Vaihingen()
     elif dataset_name == 'DFC22':
         classes, _ = DFC22()
 
