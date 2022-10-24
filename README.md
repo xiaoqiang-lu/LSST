@@ -205,7 +205,7 @@ Change DATASET, SPLIT, and DATASET_PATH as you want in train.py, then run:
 CUDA_VISIBLE_DEVICES=0,1 python train.py
 ```
 ## Testing
-Change WEIGHTS, and DATASET_PATH as you want in train.py, then run:
+Change WEIGHTS, and DATASET_PATH as you want in test.py, then run:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python test.py
 ```
@@ -213,11 +213,3 @@ CUDA_VISIBLE_DEVICES=0,1 python test.py
 ## Acknowledgement
 
 The code is mainly inherited from [ST++](https://github.com/LiheYoung/ST-PlusPlus), Thanks a lot for their great works!
-
-## Citation
-
-If you find this project useful, please consider citing:
-
-```bibtex
-
-```
