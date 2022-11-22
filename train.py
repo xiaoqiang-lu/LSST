@@ -84,7 +84,7 @@ def main(args):
     criterion = CrossEntropyLoss(ignore_index=255)
 
     valset = SemiDataset(args.dataset, args.data_root, 'val', None)
-    valloader = DataLoader(valset, batch_size=8, shuffle=False, pin_memory=True, num_workers=8, drop_last=False)
+    valloader = DataLoader(valset, batch_size=args.batch_size, shuffle=False, pin_memory=True, num_workers=8, drop_last=False)
 
     print('\n================> Total stage 1/3: Supervised training on labeled images (SupOnly)')
 
@@ -105,7 +105,7 @@ def main(args):
     print('\n\n\n================> Total stage 2/3: Adaptive Pseudo labeling all unlabeled images')
 
     dataset = SemiDataset(args.dataset, args.data_root, 'label', None, None, args.unlabeled_id_path)
-    dataloader = DataLoader(dataset, batch_size=1, shuffle=False, pin_memory=True, num_workers=4, drop_last=False)
+    dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, pin_memory=True, num_workers=4, drop_last=False)
 
     sparse_label(best_model, dataloader, args)
 
