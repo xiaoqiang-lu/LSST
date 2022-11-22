@@ -217,24 +217,36 @@ def sparse_label(model, dataloader, args):
             img = img.cuda()
             pred = model(img)
             soft_max_output, hard_output = pred.max(dim=1)
+            for j in range(soft_max_output.shape[0]):
+                soft, hard = soft_max_output[j].cpu().numpy(), hard_output[j].cpu().numpy()
+                need = []
+                for c in range(NUM_CLASSES[args.dataset]):
+                    soft_clone, hard_clone = deepcopy(soft), deepcopy(hard)
+                    need.append(ratio_sample(hard_clone, soft_clone, args.ratio, c))
+                need = np.min(np.array(need), axis=0)
 
-            soft, hard = soft_max_output.cpu().numpy(), hard_output.cpu().numpy()
-            need = []
-            for c in range(NUM_CLASSES[args.dataset]):
-                soft_clone, hard_clone = deepcopy(soft), deepcopy(hard)
-                if len(soft[(hard == c)]) != 0:
-                    all = sorted(soft[(hard == c)], reverse=True)
-                    num = len(all)
-                    need_num = int(num * args.ratio + 0.5)
-                    adaptive_threshold = all[need_num - 1]
-                    hard_clone[((soft_clone >= adaptive_threshold) == False)] = 255
-                    need.append(np.expand_dims(hard_clone, axis=0))
-            need = np.concatenate(need, axis=0)
-            need = np.min(need, axis=0)
+                pred = Image.fromarray(need.astype(np.uint8), mode='P')
+                pred.save('%s/%s' % (args.pseudo_mask_path, os.path.basename(id[j].split(' ')[1])))
 
-            for ind in range(need.shape[0]):
-                pred = Image.fromarray(need[ind, :, :].astype(np.uint8), mode='P')
-                pred.save('%s/%s' % (args.pseudo_mask_path, os.path.basename(id[ind].split(' ')[1])))
+
+def ratio_sample(hard_out, soft_max_out, ratio, s_class):
+    single_h = hard_out
+    single_s = soft_max_out
+    h_index = (single_h != s_class)
+    single_h[h_index] = 255
+    single_s[h_index] = 0
+    all = sorted(soft_max_out[(hard_out == s_class)], reverse=True)
+    num = len(all)
+    need_num = int(num * ratio + 0.5)
+    if need_num != 0:
+        adaptive_threshold = all[need_num - 1]
+        mask = (single_s >= adaptive_threshold)
+        index = (mask == False)
+        single_h[index] = 255
+    else:
+        single_h[(single_h != 255)] = 255
+
+    return single_h
                
              
 if __name__ == '__main__':
