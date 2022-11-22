@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of our paper:
 
-> [**Simple and Efficient: A Semisupervised Learning Framework for Remote Sensing Image Semantic Segmentation**      
+> [**[Simple and Efficient: A Semisupervised Learning Framework for Remote Sensing Image Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/9943552)**      
 > Xiaoqiang Lu, Licheng Jiao, Fang Liu, Shuyuan Yang, Xu Liu, Zhixi Feng, Lingling Li, Puhua Chen    
 > *Accepted by IEEE Transactions on Geoscience and Remote Sensing (TGRS) 2022*
 
