@@ -213,3 +213,17 @@ CUDA_VISIBLE_DEVICES=0,1 python test.py
 ## Acknowledgement
 
 The code is mainly inherited from [ST++](https://github.com/LiheYoung/ST-PlusPlus), Thanks a lot for their great works!
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@article{lu2022simple,
+  title={Simple and Efficient: A Semisupervised Learning Framework for Remote Sensing Image Semantic Segmentation},
+  author={Lu, Xiaoqiang and Jiao, Licheng and Liu, Fang and Yang, Shuyuan and Liu, Xu and Feng, Zhixi and Li, Lingling and Chen, Puhua},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2022},
+  publisher={IEEE}
+}
+```
