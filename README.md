@@ -51,145 +51,120 @@ We have processed the original dataset as mentioned in the paper. You can access
         <td>Setting</td>
         <td>Method</td> 
         <td>mIoU</td>
-        <td>Model</td> 
    </tr>
     <tr>
         <td rowspan="4">GID-15</td>    
         <td rowspan="2">1-8</td>
         <td >baseline</td>
         <td >61.86</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >66.38</td>
-        <td > <a href="https://drive.google.com/file/d/1r5c_1jTeO7rXXVjB2sXcQePIGTbsc8f_/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
         <td >baseline</td>
         <td >67.90</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >71.28</td>
-        <td > <a href="https://drive.google.com/file/d/1Bo8FVBeDBbFKM13GLHnJWVqFMsajz7l-/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">iSAID</td>    
         <td rowspan="2">100</td>
         <td >baseline</td>
         <td >39.91</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >46.94</td>
-        <td > <a href="https://drive.google.com/file/d/1vtBomAk-A2Ssr1F5Sbbir6crhqANd7DV/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">300</td>
         <td >baseline</td>
         <td >60.47</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >63.40</td>
-        <td > <a href="https://drive.google.com/file/d/1qEO7MvEGR0XxPYHCwynWb1vaUMfEkIv4/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">DFC22</td>    
         <td rowspan="2">1-8</td>
         <td >baseline</td>
         <td >26.97</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >30.94</td>
-        <td > <a href="https://drive.google.com/file/d/1bYvGUvs4hhJBUz5spIfbzxgXgDA1spII/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
         <td >baseline</td>
         <td >32.67</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >36.40</td>
-        <td > <a href="https://drive.google.com/file/d/1p5kwkX6JNUp55TR-Xa49WmuxIoU9RjgL/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">MER</td>    
         <td rowspan="2">1-8</td>
         <td >baseline</td>
         <td >43.63</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >49.68</td>
-        <td > <a href="https://drive.google.com/file/d/1onc0yAHrXD0AGQ_UxJt1emFTw-SazPip/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
         <td >baseline</td>
         <td >48.19</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >51.31</td>
-        <td > <a href="https://drive.google.com/file/d/1YPKR2RCvCrUr0Hg8y6_GKAzmsMGfVy7k/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">MSL</td>    
         <td rowspan="2">1-8</td>
         <td >baseline</td>
         <td >50.17</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >54.72</td>
-        <td > <a href="https://drive.google.com/file/d/1LocR9_OsN1PT1tdpZa2vHlteeawCekhU/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
         <td >baseline</td>
         <td >50.26</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >56.22</td>
-        <td > <a href="https://drive.google.com/file/d/1eNmc--jeFwZpth8bYle7tB3VaA5_15sc/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="4">Vaihingen</td>    
         <td rowspan="2">1-8</td>
         <td >baseline</td>
         <td >53.30</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >64.09</td>
-        <td > <a href="https://drive.google.com/file/d/1rk_UPaksMyD5qNXOcRRvQTTVs1JfAIdM/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     <tr>
         <td rowspan="2">1-4</td>
         <td >baseline</td>
         <td >59.30</td>
-        <td >-</td>
     </tr>
     <tr>
         <td >ours</td>
         <td >65.34</td>
-        <td > <a href="https://drive.google.com/file/d/1WvRvgtnehhDS-q_j4ZYVP6m-IDoOVvJB/view?usp=sharing" target="_blank">Google Drive</a></td>
     </tr>
     
     
