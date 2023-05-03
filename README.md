@@ -198,6 +198,8 @@ If you find this project useful, please consider citing:
   title={Simple and Efficient: A Semisupervised Learning Framework for Remote Sensing Image Semantic Segmentation},
   author={Lu, Xiaoqiang and Jiao, Licheng and Liu, Fang and Yang, Shuyuan and Liu, Xu and Feng, Zhixi and Li, Lingling and Chen, Puhua},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={60},
+  pages={1--16},
   year={2022},
   publisher={IEEE}
 }
